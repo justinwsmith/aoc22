@@ -9,7 +9,12 @@ fn main() {
     //println!("Day2: {}", day2::solve());
     //println!("Day2-2: {}", day2::solve2());
 
-    let day3_input = include_str!("../inputs/day3.txt");
-    println!("Day3: {}", day3::solve(day3_input));
-    println!("Day3-2: {}", day3::solve2(day3_input));
+    //let day3_input = include_str!("../inputs/day3.txt");
+    //println!("Day3: {}", day3::solve(day3_input));
+    //println!("Day3-2: {}", day3::solve2(day3_input));
+
+    let day4_input = include_str!("../inputs/day4.txt");
+
+    println!("Day4: {}", day4::solve(day4_input));
+    println!("Day4-2: {}", day4::solve2(day4_input));
 }
