@@ -4,6 +4,7 @@ mod day3;
 mod day4;
 mod day5;
 mod day6;
+mod day7;
 
 fn main() {
     //println!("Day1: {}", day1::solve());
@@ -23,7 +24,11 @@ fn main() {
     //println!("Day5: {}", day5::solve(day5_input));
     //println!("Day5-2: {}", day5::solve2(day5_input));
 
-    let day6_input = include_str!("../inputs/day6.txt");
-    println!("Day6: {}", day6::solve(day6_input));
-    println!("Day6-2: {}", day6::solve2(day6_input));
+    //let day6_input = include_str!("../inputs/day6.txt");
+    //println!("Day6: {}", day6::solve(day6_input));
+    //println!("Day6-2: {}", day6::solve2(day6_input));
+
+    let day7_input = include_str!("../inputs/day7.txt");
+    println!("Day7: {}", day7::solve(day7_input));
+    println!("Day7-2: {}", day7::solve2(day7_input));
 }
